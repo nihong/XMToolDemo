@@ -1,10 +1,10 @@
 
 Pod::Spec.new do |s|
 s.name        = 'XMTool'
-s.version     = '1.0.1'
+s.version     = '1.0.2'
 s.authors     = { 'gaopeng' => 'gaopeng@mgtv.com' }
 s.homepage    = 'https://github.com/nihong/XMToolDemo'
-s.summary     = 'a dropdown menu for ios like wechat homepage.'
+s.summary     = '就是一个简单的概述.'
 s.source      = { :git => 'https://github.com/nihong/XMToolDemo.git',
 :tag => s.version.to_s }
 s.license     = { :type => "MIT", :file => "LICENSE" }

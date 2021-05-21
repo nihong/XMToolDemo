@@ -14,8 +14,7 @@
 		74B4E324265692D700A80B9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74B4E323265692D700A80B9E /* Assets.xcassets */; };
 		74B4E327265692D700A80B9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B4E325265692D700A80B9E /* LaunchScreen.storyboard */; };
 		74B4E32A265692D700A80B9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B4E329265692D700A80B9E /* main.m */; };
-		74B4E337265763FA00A80B9E /* MGXXTEA.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B4E334265763FA00A80B9E /* MGXXTEA.m */; };
-		74B4E338265763FA00A80B9E /* xmpic1.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B4E336265763FA00A80B9E /* xmpic1.png */; };
+		74B4E34626579B1E00A80B9E /* MGXXTEA.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B4E34526579B1E00A80B9E /* MGXXTEA.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +30,8 @@
 		74B4E326265692D700A80B9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74B4E328265692D700A80B9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74B4E329265692D700A80B9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		74B4E333265763FA00A80B9E /* MGXXTEA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGXXTEA.h; sourceTree = "<group>"; };
-		74B4E334265763FA00A80B9E /* MGXXTEA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGXXTEA.m; sourceTree = "<group>"; };
-		74B4E336265763FA00A80B9E /* xmpic1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xmpic1.png; sourceTree = "<group>"; };
+		74B4E34426579B1E00A80B9E /* MGXXTEA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGXXTEA.h; sourceTree = "<group>"; };
+		74B4E34526579B1E00A80B9E /* MGXXTEA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGXXTEA.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +48,7 @@
 		74B4E30B265692D500A80B9E = {
 			isa = PBXGroup;
 			children = (
-				74B4E331265763FA00A80B9E /* XMTool */,
+				74B4E34326579B1E00A80B9E /* XMTool */,
 				74B4E316265692D500A80B9E /* XMToolDemo */,
 				74B4E315265692D500A80B9E /* Products */,
 			);
@@ -82,31 +80,13 @@
 			path = XMToolDemo;
 			sourceTree = "<group>";
 		};
-		74B4E331265763FA00A80B9E /* XMTool */ = {
+		74B4E34326579B1E00A80B9E /* XMTool */ = {
 			isa = PBXGroup;
 			children = (
-				74B4E332265763FA00A80B9E /* Classes */,
-				74B4E335265763FA00A80B9E /* Assets */,
+				74B4E34426579B1E00A80B9E /* MGXXTEA.h */,
+				74B4E34526579B1E00A80B9E /* MGXXTEA.m */,
 			);
-			name = XMTool;
-			path = ../XMTool;
-			sourceTree = "<group>";
-		};
-		74B4E332265763FA00A80B9E /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				74B4E333265763FA00A80B9E /* MGXXTEA.h */,
-				74B4E334265763FA00A80B9E /* MGXXTEA.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		74B4E335265763FA00A80B9E /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				74B4E336265763FA00A80B9E /* xmpic1.png */,
-			);
-			path = Assets;
+			path = XMTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,7 +148,6 @@
 				74B4E327265692D700A80B9E /* LaunchScreen.storyboard in Resources */,
 				74B4E324265692D700A80B9E /* Assets.xcassets in Resources */,
 				74B4E322265692D500A80B9E /* Main.storyboard in Resources */,
-				74B4E338265763FA00A80B9E /* xmpic1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,7 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74B4E31F265692D500A80B9E /* ViewController.m in Sources */,
-				74B4E337265763FA00A80B9E /* MGXXTEA.m in Sources */,
+				74B4E34626579B1E00A80B9E /* MGXXTEA.m in Sources */,
 				74B4E319265692D500A80B9E /* AppDelegate.m in Sources */,
 				74B4E32A265692D700A80B9E /* main.m in Sources */,
 				74B4E31C265692D500A80B9E /* SceneDelegate.m in Sources */,
