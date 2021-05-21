@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 s.name        = 'XMTool'
-s.version     = '1.0.0'
+s.version     = '1.0.1'
 s.authors     = { 'gaopeng' => 'gaopeng@mgtv.com' }
 s.homepage    = 'https://github.com/nihong/XMToolDemo'
 s.summary     = 'a dropdown menu for ios like wechat homepage.'
